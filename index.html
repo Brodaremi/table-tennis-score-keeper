@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Score keeper</title>
+</head>
+<body>
+    <div class="body">
+        <div class="container">
+            <div class="left">
+                <div class="scores" >
+                    <div class="p1label">
+                        <label for="input">Enter Player1 Name</label>
+                        <input type="text" name="player1" id="p1Name" placeholder="Player1">
+                    </div>
+                    <h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+                    <div class="p2label">
+                        <label for="input">Enter Player2 Name</label>
+                        <input type="text" name="player2" id="p2Name" placeholder="Player2">
+                </div>
+                    </div>
+                <div class="buttons">
+                    <select name="" id="playTo">            
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                        <option value="7">7</option>
+                        <option value="11">11</option>
+                        <option value="15">15</option>
+                        <option value="21">21</option>
+                    </select>
+                    <button id="p1Button">+1 Player One</button>
+                    <button id="p2Button">+1 Player Two</button>
+                    <button id="reset">Reset</button>
+                </div>
+            </div>
+            <div class="right">
+                <div class="heading">
+                    <h1> <span>Table Tennis</span> Score Keeper</h1>
+                </div>
+                <div class="main">
+                    <div class="images1">
+                        <img src="images/first.jpg" class="first" alt="" srcset="" width="200em" height="150em">
+                        <img src="images/third.jpg" class="third" alt="" srcset="" width="200em" height="150em">
+                        <img src="images/second.jpg" class="second" alt="" srcset="" width="200em" height="150em">
+                    </div>
+                    <div class="images2">
+                        <img src="images/fourth.jpg" class="fourth" alt="" srcset="" width="200em" height="150em">
+                        <img src="images/sixth.jpg" class="sixth" alt="" srcset="" width="200em" height="150em">
+                        <img src="images/seventh.jpg" class="seventh" alt="" srcset="" width="200em" height="150em">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="attribution">
+            Designed&Coded by <a href="https://www.twitter.com/brodaremi">Momoh Remi</a>.
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

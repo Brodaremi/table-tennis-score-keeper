@@ -1,0 +1,427 @@
+body {
+    background-color:#93c5fdeb;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 1% auto;
+    width: fit-content;
+    height: fit-content;
+}
+.body{
+    background-color: #1e3a8a;
+    border-radius: 1em;
+    padding: 2em 2em 3em 2em;
+    width: fit-content;
+    align-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: fit-content;
+    margin: 1em auto;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.heading {
+    
+    width: fit-content;
+    align-content: center;
+    color:#bfdbfe;
+    padding: 1px 10px;
+    margin: 1em auto;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+/* .heading:hover{
+    background-color: blue;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+} */
+.heading span{
+    color: white;
+}
+.main{
+    margin: 10px;
+}
+.images1{
+    margin: 0.3em auto;
+    padding: 0.1em;
+    width: fit-content;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+.images1:hover{
+    background-color: #1e3a8a;
+}
+
+.images1 .first{
+    padding: 0.1em 0.05em 0.1em 0.1em;
+}
+.images1 .second{
+    padding: 0.1em 0.05em 0.1em 0.1em;
+}
+.images1 .third{
+    padding: 0.1em 0.05em 0.1em 0.1em;
+}
+.images1 .first:hover{
+    background-color:#60a5fa;
+    width: 13em;
+    height: 10em;
+}
+.images1 .second:hover{
+    background-color:#60a5fa;
+    width: 13em;
+    height: 10em;
+}
+.images1 .third:hover{
+    background-color:#60a5fa;
+    width: 13em;
+    height: 10em;
+}
+.p1label{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-self: center;
+}
+.p1label label{
+    font-size: small;
+    text-align: center;
+    color: #dbeafe;
+    margin-right: 2em;
+}
+.p1label #p1Name{
+    align-items: center;
+}
+.p2label{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-self: center;
+}
+.p2label label{
+    font-size: small;
+    text-align: center;
+    color: #dbeafe;
+    margin-left: 2em;
+}
+.p2label #p2Name{
+    align-items: center;
+}
+.scores{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    width: max-content;
+    font-size: xx-large;
+    margin: auto;
+    border-radius: 0.2em;
+    padding: 0.01px 0.2em;
+    font-weight: bolder;
+}
+.scores h1{
+    background-color:white;
+    border-radius: 0.2em;
+    padding: 0.01px 0.2em;
+}
+.scores #p1Name{
+    height: 2em;
+    align-self: center;
+    margin-right: 2em;
+    border-radius: 1em;
+    border-color: aqua;
+    text-align: center;
+}
+.scores #p1Name:hover{
+    border-color: blue;
+}
+.scores #p2Name{
+    height: 2em;
+    align-self: center;
+    margin-left: 2em;
+    border-radius: 1em;
+    border-color: aqua;
+    text-align: center;
+}
+.scores #p2Name:hover{
+    border-color: blue;
+}
+.scores h1:hover{
+    background-color: #60a5fa;
+}
+.buttons{
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 1em;
+}
+.buttons #playTo{
+    background-color: white;
+    margin: 0 1em 1em 0;
+    color: black;
+    padding: 0.8em;
+    border-radius: 1em;
+    border-color: darkblue;
+    cursor: pointer;
+}
+.buttons #playTo:hover{
+    color: blue;
+    background-color: aquamarine;
+    border-color: blueviolet;
+}
+
+.buttons #p1Button{
+    background-color: hsl(154, 59%, 51%);
+    padding: 20px 30px;
+    margin: 5px;
+    border: none;
+    color:  hsl(0, 0%, 100%);
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 0 3px 3px  hsl(154, 77%, 21%) ;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-weight: bolder;
+}
+.buttons #p1Button:hover{
+    background-color: aquamarine;
+}
+.buttons #p2Button{
+    background-color: hsl(154, 59%, 51%);
+    padding: 20px 30px;
+    margin: 5px;
+    border: none;
+    color:  hsl(0, 0%, 100%);
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 0 3px 3px  hsl(154, 77%, 21%) ;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-weight: bolder;
+}
+.buttons #p2Button:hover{
+    background-color: aquamarine;
+    border-color: blue;
+}
+.buttons #reset{
+    background-color: black;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    color:  hsl(0, 0%, 100%);
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 0 3px 3px  hsl(154, 77%, 21%) ;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-weight: bolder;
+}
+.buttons #reset:hover{
+    background-color: gray;
+}
+.images2{
+    margin: 0.3em auto;
+    padding: 0.1em;
+    width: fit-content;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+.images2 .fourth{
+    padding: 0.1em 0.05em 0.1em 0.1em;
+}
+.images2 .sixth{
+    padding: 0.1em 0.05em 0.1em 0.1em;
+}
+.images2 .seventh{
+    padding: 0.1em 0.05em 0.1em 0.1em;
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+.images2 .fourth:hover{
+    background-color:#60a5fa;
+    width: 13em;
+    height: 10em;
+    padding: 0.1em;
+}
+.images2 .sixth:hover{
+    background-color:#60a5fa;
+    width: 13em;
+    height: 10em;
+}
+.images2 .seventh:hover{
+    background-color:#60a5fa;
+    width: 13em;
+    height: 10em;
+}
+.images2:hover{
+    background-color: #1e3a8a;
+}
+  .attribution a {
+     color: #1e3a8a;
+}
+
+@media screen and (max-width: 600px){
+.container{
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.body{
+    width: 100%;
+    padding: 0;
+    align-content: center;
+}
+.left{
+    width: fit-content
+}
+.right{
+    width: fit-content;
+}
+.scores{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.images1{
+    width: fit-content
+}
+.heading{
+    font-size: small;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    align-self: center;
+}
+.heading span{
+    display: block;
+}
+.images1 .first{
+    width: 6em;
+    height: 5em;
+}
+.images1 .second{
+    width: 6em;
+    height: 5em;
+}
+.images1 .third{
+    width: 6em;
+    height: 5em;
+}
+.images2 .fourth{
+    width: 6em;
+    height: 5em;
+}
+.images2 .sixth{
+    width: 6em;
+    height: 5em;
+}
+.images2 .seventh{
+    width: 6em;
+    height: 5em;
+}
+.p1label{
+    display: flex;
+    flex-direction: column;
+}
+.p1label label{
+    font-size: small;
+    text-align: center;
+    color: #dbeafe;
+    margin-right: 0;
+}
+.p2label{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-self: center;
+}
+.p2label label{
+    font-size: small;
+    text-align: center;
+    color: #dbeafe;
+    margin-left: 0;
+}
+.p1label #p1Name{
+    align-items: center;
+}
+.p2label #p2Name{
+    align-items: center;
+}
+.scores #p1Name{
+    padding: 0;
+    margin: 0;
+}
+.scores #p2Name{
+    padding: 0;
+    margin: 0;
+}
+.scores h1{
+    margin: 10px auto;
+}
+.buttons #playTo{
+    margin: 2px;
+    width: 5em;
+    align-self: center;
+}
+footer{
+align-content: center;
+}
+.images1 .first:hover{
+    background-color:#60a5fa;
+    width: 6em;
+    height: 5em;
+}
+.images1 .second:hover{
+    background-color:#60a5fa;
+    width: 6em;
+    height: 5em;
+}
+.images1 .third:hover{
+    background-color:#60a5fa;
+    width: 6em;
+    height: 5em;
+}
+.images2 .fourth:hover{
+    background-color:#60a5fa;
+    width: 6em;
+    height: 5em;
+    padding: 0.1em;
+}
+.images2 .sixth:hover{
+    background-color:#60a5fa;
+    width: 6em;
+    height: 5em;
+}
+.images2 .seventh:hover{
+    background-color:#60a5fa;
+    width: 6em;
+    height: 5em;
+}
+.images2:hover{
+    background-color: #1e3a8a;
+}
+  .attribution a {
+     color: #1e3a8a;
+}
+}
